@@ -1,8 +1,16 @@
-<app-header></app-header>
-<div class="body">
+<head>
+    <title>Background Image with Search Button</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+     
+    
+    </head>
+    
+      
+    <body>
     <div>
     <!-- <div class="background-image"></div> -->
-    <div class="search-container mt-5">
+    <div class="search-container">
         <form (ngSubmit)="searchBooks()" [formGroup]="searchForm">
             <div>
               <div class="form-group row mt-0 mb-2">
@@ -22,9 +30,13 @@
    
  </div>
     </div>
+<<<<<<< HEAD
     <div class="container">
         <app-listbook [books]="bookArr"></app-listbook>
-    </div>
 </div>
 <app-footer></app-footer>
+=======
+        <app-listbook [books]="bookArr"></app-listbook>
+</body>
+>>>>>>> d56c12195122fa6e9598b3fc32a7002637838d32
     
