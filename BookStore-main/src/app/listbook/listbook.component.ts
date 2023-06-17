@@ -9,6 +9,7 @@ import { ServicesService } from '../services.service';
   styleUrls: ['./listbook.component.css']
 })
 export class ListbookComponent {
+
   @Input() books:Book[] ;
 
   book: Book;

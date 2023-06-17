@@ -1,7 +1,7 @@
-body {
+.body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
-    background-image: url("../../assets/1.jpg");
+    background-image: url("src/assets/1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,10 +64,6 @@ body {
     margin-bottom: 10px;
   }
   
-  /* .h2 {
-    text-align: center;
-    color:whitesmoke;
-  } */
   .header {
       position: fixed;
       top: 0;
@@ -84,8 +80,7 @@ body {
       display: flex;
       align-items: center;
     }
-  
-  /* Responsive Styles */
+
   @media screen and (max-width: 768px) {
     .button {
       width: 100%;

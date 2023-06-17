@@ -15,6 +15,7 @@ import { AdminComponent } from './admin/admin.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AddbookComponent } from './addbook/addbook.component';
 import { ListbookComponent } from './listbook/listbook.component';
+import { ViewComponent } from './view/view.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ListbookComponent } from './listbook/listbook.component';
     AdminComponent,
     AddbookComponent,
     ListbookComponent,
+    ViewComponent,
  
   ],
   imports: [
