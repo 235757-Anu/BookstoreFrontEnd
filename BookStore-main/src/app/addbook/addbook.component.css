@@ -9,10 +9,17 @@ body {
     align-items: center;
     justify-content: center;
   }
+
+  input{
+    width: 34rem;
+    margin-inline: 17px;
+  }
   
    
   
   .container {
+      display: flex;
+      flex-direction: column;
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -40,14 +47,12 @@ body {
     justify-content: center;
   }
   
-   
+   .Searchbutton{
+    display: flex;
+    flex-direction: row;
+   }
   
-  .search-input {
-    padding: 8px;
-    border-radius: 20px;
-    margin-right: 10px;
-    width: 600px;
-  }
+  
   
    
   
@@ -93,3 +98,15 @@ body {
   .search-container {
     z-index: 1;
   }
+  .containerbook {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  .page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
